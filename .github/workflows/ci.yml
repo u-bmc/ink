@@ -1,0 +1,49 @@
+name: CI
+on:
+  push:
+  pull_request:
+    branches:
+      - main
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - name: Dagger Build
+        uses: dagger-for-github@v3
+        with:
+          cmds: |
+            project update
+            do build
+  lint:
+    name: Lint
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - name: Dagger Lint
+        uses: dagger-for-github@v3
+        with:
+          cmds: |
+            project update
+            do lint
+  test:
+    name: Test
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - name: Dagger Test
+        uses: dagger-for-github@v3
+        with:
+          cmds: |
+            project update
+            do test

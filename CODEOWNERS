@@ -1,0 +1,5 @@
+# This file guards changes to crucial files like the github action workflows
+
+.github/        @u-bmc/maintainers
+dagger.cue  @u-bmc/maintainers
+cue.mod/    @u-bmc/maintainers
