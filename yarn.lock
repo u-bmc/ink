@@ -567,10 +567,10 @@ carbon-icons-svelte@11.2.0:
   resolved "https://registry.yarnpkg.com/carbon-icons-svelte/-/carbon-icons-svelte-11.2.0.tgz#4b791c5cdb9b3b8b52758475a5b2e4ca96062639"
   integrity sha512-nbqCEKoZA5EzT2Lr8vNYnfWcDl5GnFFLnbD861U32g9cNe7D7nmQKx4T+goFp5AoY60OyAgKUNJov8LwNEkhbg==
 
-carbon-pictograms-svelte@12.1.0:
-  version "12.1.0"
-  resolved "https://registry.yarnpkg.com/carbon-pictograms-svelte/-/carbon-pictograms-svelte-12.1.0.tgz#ee6dc094b630101be34144ed5b5c9aef2b104243"
-  integrity sha512-PDhE2urPL/ER1HyBp3QU4RhZgWIOmGMVDXRchswNwvl8PRXU4Lb7uLxQukfDrvPvQHcWhAt4pIrQ4LvN+/zqSA==
+carbon-pictograms-svelte@12.2.0:
+  version "12.2.0"
+  resolved "https://registry.yarnpkg.com/carbon-pictograms-svelte/-/carbon-pictograms-svelte-12.2.0.tgz#50c7869531fa08273c3011f15781fd1a0d805910"
+  integrity sha512-bGs0WcfQwBgzFHSMYMUJots2eOFQqCQ7nEfJhqjYKepNGAatx3mWFqIuCIsU9oXJEzm/MAKr+Dbyj9PpxOYN8w==
 
 carbon-preprocess-svelte@0.9.1:
   version "0.9.1"

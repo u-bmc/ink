@@ -25,7 +25,7 @@
 		"@typescript-eslint/parser": "5.36.2",
 		"carbon-components-svelte": "0.70.6",
 		"carbon-icons-svelte": "11.2.0",
-		"carbon-pictograms-svelte": "12.1.0",
+		"carbon-pictograms-svelte": "12.2.0",
 		"carbon-preprocess-svelte": "0.9.1",
 		"d3": "7.6.1",
 		"eslint": "8.23.0",
