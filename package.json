@@ -23,7 +23,7 @@
 		"@sveltejs/kit": "1.0.0-next.447",
 		"@typescript-eslint/eslint-plugin": "5.35.1",
 		"@typescript-eslint/parser": "5.35.1",
-		"carbon-components-svelte": "0.65.3",
+		"carbon-components-svelte": "0.70.6",
 		"carbon-icons-svelte": "11.2.0",
 		"carbon-pictograms-svelte": "12.1.0",
 		"carbon-preprocess-svelte": "0.9.1",
