@@ -14,7 +14,7 @@ jobs:
         with:
           fetch-depth: 0
       - name: Dagger Build
-        uses: dagger-for-github@v3
+        uses: dagger/dagger-for-github@v3
         with:
           cmds: |
             project update
@@ -28,7 +28,7 @@ jobs:
         with:
           fetch-depth: 0
       - name: Dagger Lint
-        uses: dagger-for-github@v3
+        uses: dagger/dagger-for-github@v3
         with:
           cmds: |
             project update
@@ -42,7 +42,7 @@ jobs:
         with:
           fetch-depth: 0
       - name: Dagger Test
-        uses: dagger-for-github@v3
+        uses: dagger/dagger-for-github@v3
         with:
           cmds: |
             project update
