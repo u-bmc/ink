@@ -35,7 +35,11 @@
 		<SkipToContent />
 	</svelte:fragment>
 	<HeaderUtilities>
-		<HeaderAction bind:isOpen={isUserMenuOpen} icon={UserAvatarFilledAlt} closeIcon={UserAvatarFilledAlt}>
+		<HeaderAction
+			bind:isOpen={isUserMenuOpen}
+			icon={UserAvatarFilledAlt}
+			closeIcon={UserAvatarFilledAlt}
+		>
 			<HeaderPanelLinks>
 				<HeaderPanelLink>Change Password</HeaderPanelLink>
 				<HeaderPanelLink>Log out</HeaderPanelLink>

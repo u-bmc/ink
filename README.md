@@ -10,6 +10,7 @@ While the project can be built and tested with yarn in your local environment al
 Dagger is used for our CI and makes testing with playwright (our E2E testing framework) easier, as it uses Microsofts official images for that.
 
 First make sure all dependecies are installed:
+
 ```
 yarn install
 
@@ -18,11 +19,13 @@ dagger project update
 ```
 
 To start a local development server:
+
 ```
 yarn run dev
 ```
 
 To test the written code first run the linters:
+
 ```
 yarn run lint
 
@@ -31,6 +34,7 @@ dagger do lint
 ```
 
 Afterwards run the E2E tests:
+
 ```
 yarn run test
 
@@ -50,6 +54,7 @@ dagger do build
 ```
 
 You can preview the production build with:
+
 ```
 yarn run preview
 ```
