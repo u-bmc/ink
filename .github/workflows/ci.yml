@@ -5,6 +5,16 @@ on:
     branches:
       - main
 jobs:
+  commit-lint:
+    name: Commit-Lint
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - name: Commit-Lint
+        uses: wagoid/commitlint-github-action@v5
   build:
     name: Build
     runs-on: ubuntu-latest
