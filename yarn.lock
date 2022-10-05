@@ -267,15 +267,15 @@
     "@vercel/nft" "^0.22.0"
     esbuild "^0.15.7"
 
-"@sveltejs/kit@1.0.0-next.508":
-  version "1.0.0-next.508"
-  resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-1.0.0-next.508.tgz#6a0681914f9ac1f37672036a1a27a85b9d11aaa2"
-  integrity sha512-qUnuhuL82meE0lSwrsS/FIvtDoE83Au4SxVLCim3FzoCnJc7bFZ9vYRbRUYxAjfYKRMjKVUrp9iHFObn9LmnUg==
+"@sveltejs/kit@1.0.0-next.510":
+  version "1.0.0-next.510"
+  resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-1.0.0-next.510.tgz#edcec8b8314155d316845c8194f98575b5f9e0e9"
+  integrity sha512-i96sRqEzNP1dOaQQ2aR38H6emdQJhc1qr5KqNyjqi3Wb0sDAG49cQxMRUOdydkVKZkG/o7PvC5qdyblVfalAdA==
   dependencies:
     "@sveltejs/vite-plugin-svelte" "^1.0.5"
     "@types/cookie" "^0.5.1"
     cookie "^0.5.0"
-    devalue "^3.1.2"
+    devalue "^4.0.0"
     kleur "^4.1.4"
     magic-string "^0.26.2"
     mime "^3.0.0"
@@ -1025,10 +1025,10 @@ detect-libc@^2.0.0:
   resolved "https://registry.yarnpkg.com/detect-libc/-/detect-libc-2.0.1.tgz#e1897aa88fa6ad197862937fbc0441ef352ee0cd"
   integrity sha512-463v3ZeIrcWtdgIg6vI6XUncguvr2TnGl4SzDXinkt9mSLpBJKXT3mW6xT3VQdDN11+WVs29pgvivTc4Lp8v+w==
 
-devalue@^3.1.2:
-  version "3.1.2"
-  resolved "https://registry.yarnpkg.com/devalue/-/devalue-3.1.2.tgz#412497b63d2dc0beba2179723475c2ef4c2b1b31"
-  integrity sha512-wUXbMGPAsBx79UF14nsWSsJlC7RcwPlf2w3bGheODWxKx57e9n68ceoijbqCJCEbjyo0S79nqfPwQgyijwLaqw==
+devalue@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/devalue/-/devalue-4.0.0.tgz#efeadbc922894d468ad903029d4a7e65e37f4952"
+  integrity sha512-w25siwXyuMUqMr7jPlEjyNCp1vn0Jzj/fNg3qVt/r/Dpe8HjESh2V92L0jmh3uq4iJt0BvjH+Azk1pQzkcnDWA==
 
 dir-glob@^3.0.1:
   version "3.0.1"
