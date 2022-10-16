@@ -20,7 +20,7 @@
 		"@playwright/test": "1.26.1",
 		"@sveltejs/adapter-auto": "1.0.0-next.80",
 		"@sveltejs/adapter-static": "1.0.0-next.44",
-		"@sveltejs/kit": "1.0.0-next.510",
+		"@sveltejs/kit": "1.0.0-next.516",
 		"@typescript-eslint/eslint-plugin": "5.39.0",
 		"@typescript-eslint/parser": "5.39.0",
 		"carbon-components-svelte": "0.70.9",
