@@ -272,10 +272,10 @@
     "@vercel/nft" "^0.22.0"
     esbuild "^0.15.7"
 
-"@sveltejs/kit@1.0.0-next.510":
-  version "1.0.0-next.510"
-  resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-1.0.0-next.510.tgz#edcec8b8314155d316845c8194f98575b5f9e0e9"
-  integrity sha512-i96sRqEzNP1dOaQQ2aR38H6emdQJhc1qr5KqNyjqi3Wb0sDAG49cQxMRUOdydkVKZkG/o7PvC5qdyblVfalAdA==
+"@sveltejs/kit@1.0.0-next.516":
+  version "1.0.0-next.516"
+  resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-1.0.0-next.516.tgz#c2f72c01150d0b7917ff4a8a21fc675cffd309b8"
+  integrity sha512-n0oGcv7xpgJ81ld1oER5HVREP4TdeDUJ8S64XNDcl3Y2xfQLKk8C4SLYQw2D6V+DxUm8V3aRrj7N7/tm4CQm6A==
   dependencies:
     "@sveltejs/vite-plugin-svelte" "^1.0.5"
     "@types/cookie" "^0.5.1"
