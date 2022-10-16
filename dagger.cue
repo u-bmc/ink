@@ -49,7 +49,7 @@ dagger.#Plan & {
 		}
 		test: {
 			pull: docker.#Pull & {
-				source: "mcr.microsoft.com/playwright:v1.26.1-focal"
+				source: "mcr.microsoft.com/playwright:v1.27.1-focal"
 			}
 			copy: docker.#Copy & {
 				input:    pull.output
