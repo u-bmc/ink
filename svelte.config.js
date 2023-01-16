@@ -1,16 +1,19 @@
-import adapter from '@sveltejs/adapter-auto';
-import preprocess from 'svelte-preprocess';
+import adapter from '@sveltejs/adapter-static';
+import { vitePreprocess } from '@sveltejs/kit/vite';
 import { optimizeImports, elements, icons } from 'carbon-preprocess-svelte';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
-	preprocess: [preprocess(), optimizeImports(), elements(), icons()],
+  preprocess: [vitePreprocess(), optimizeImports(), elements(), icons()],
 
-	kit: {
-		adapter: adapter({
-			precompress: true
-		})
-	}
+  kit: {
+    adapter: adapter({
+      fallback: 'index.html',
+      pages: 'build',
+      precompress: true,
+      strict: true
+    })
+  }
 };
 
 export default config;
