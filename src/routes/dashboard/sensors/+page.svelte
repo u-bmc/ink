@@ -4,16 +4,16 @@
 </script>
 
 <svelte:head>
-  <title>Login</title>
-  <meta name="description" content="Login" />
+  <title>Sensors</title>
+  <meta name="description" content="Sensors" />
 </svelte:head>
 
 <Grid>
   <Row>
     <Column>
-      <h1>Login</h1>
+      <h1>Sensors</h1>
 
-      <p>TODO: Login page</p>
+      <p>TODO: Sensors page</p>
     </Column>
   </Row>
 </Grid>
