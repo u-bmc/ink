@@ -57,7 +57,7 @@
     "@dagger.io/dagger": "0.3.1",
     "@playwright/test": "1.29.2",
     "@sveltejs/adapter-static": "1.0.5",
-    "@sveltejs/kit": "1.2.2",
+    "@sveltejs/kit": "1.5.0",
     "@types/node": "18.11.18",
     "@typescript-eslint/eslint-plugin": "5.48.2",
     "@typescript-eslint/parser": "5.48.2",
