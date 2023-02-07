@@ -15,8 +15,7 @@ connect(
       .from('mcr.microsoft.com/playwright:v1.29.2-focal');
 
     // prepare runner
-    const runner: Container = client
-      .container({ id: playwright })
+    const runner: Container = playwright
       .withMountedDirectory('/src', source)
       .withWorkdir('/src')
       .withExec(['yarn', 'install'])
