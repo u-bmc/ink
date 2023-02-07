@@ -73,3 +73,8 @@ jobs:
         run: yarn install --frozen-lockfile --immutable
       - name: Dagger Test
         run: yarn run test:ci
+      - name: Codecov
+        uses: codecov/codecov-action@v3
+        with:
+          directory: coverage
+          fail-ci-if-error: true
