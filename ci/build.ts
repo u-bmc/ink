@@ -13,8 +13,7 @@ connect(
     const node: Container = client.container().from('node:18.12-alpine3.17');
 
     // prepare runner
-    const runner: Container = client
-      .container({ id: node })
+    const runner: Container = node
       .withMountedDirectory('/src', source)
       .withWorkdir('/src')
       .withExec(['yarn', 'install'])
