@@ -706,10 +706,10 @@ callsites@^3.0.0:
   resolved "https://registry.yarnpkg.com/callsites/-/callsites-3.1.0.tgz#b3630abd8943432f54b3f0519238e33cd7df2f73"
   integrity sha512-P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==
 
-carbon-components-svelte@0.72.0:
-  version "0.72.0"
-  resolved "https://registry.yarnpkg.com/carbon-components-svelte/-/carbon-components-svelte-0.72.0.tgz#943a4ff2c33a553b66f68f9858c9fa1ec81f5ee1"
-  integrity sha512-238w4chqWWtjKqTJejcri90TPke/HIq2XQGjcMh+Ukt+C1I4J+p3he2BdSwgOrBbPm2b9Mp7uP9X3Ou95vGqsQ==
+carbon-components-svelte@0.72.2:
+  version "0.72.2"
+  resolved "https://registry.yarnpkg.com/carbon-components-svelte/-/carbon-components-svelte-0.72.2.tgz#0148d9b6658958e661059f386dc985b3fa27296f"
+  integrity sha512-fTwRQ+bQ+0lZooS2FOkERIaZGoBzWNPn2Ksq8+3K4x+E/pU9EFEnFH7PadYMpuxih2o5N0Dbn0YC9JyZbZrQJw==
   dependencies:
     flatpickr "4.6.9"
 

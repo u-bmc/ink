@@ -62,7 +62,7 @@
     "@typescript-eslint/eslint-plugin": "5.48.2",
     "@typescript-eslint/parser": "5.48.2",
     "@vitest/coverage-c8": "0.27.3",
-    "carbon-components-svelte": "0.72.0",
+    "carbon-components-svelte": "0.72.2",
     "carbon-icons-svelte": "11.4.0",
     "carbon-pictograms-svelte": "12.2.0",
     "carbon-preprocess-svelte": "0.9.1",
