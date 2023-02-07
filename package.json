@@ -55,7 +55,7 @@
   "devDependencies": {
     "@carbon/charts-svelte": "1.6.3",
     "@dagger.io/dagger": "0.3.2",
-    "@playwright/test": "1.29.2",
+    "@playwright/test": "1.30.0",
     "@sveltejs/adapter-static": "1.0.5",
     "@sveltejs/kit": "1.5.0",
     "@types/node": "18.11.18",
