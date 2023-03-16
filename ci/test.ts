@@ -7,10 +7,11 @@ connect(
     // get reference to the local project
     const source: Directory = client
       .host()
-      .directory('.', { exclude: ['node_modules/', 'build/', '.svelte-kit'] });
+      .directory('.', { exclude: ['node_modules/', 'build/', '.svelte-kit/'] });
 
     // get Playwright image
     const playwright: Container = client
+      .pipeline('test')
       .container()
       .from('mcr.microsoft.com/playwright:v1.31.2-focal');
 
