@@ -12,7 +12,7 @@ connect(
     // get Playwright image
     const playwright: Container = client
       .container()
-      .from('mcr.microsoft.com/playwright:v1.30.0-focal');
+      .from('mcr.microsoft.com/playwright:v1.31.2-focal');
 
     // prepare runner
     const runner: Container = playwright
