@@ -7,10 +7,10 @@ connect(
     // get reference to the local project
     const source: Directory = client
       .host()
-      .directory('.', { exclude: ['node_modules/', 'build/', '.svelte-kit'] });
+      .directory('.', { exclude: ['node_modules/', 'build/', '.svelte-kit/'] });
 
     // get Node image
-    const node: Container = client.container().from('node:18.12-alpine3.17');
+    const node: Container = client.pipeline('build').container().from('node:18.12-alpine3.17');
 
     // prepare runner
     const runner: Container = node
