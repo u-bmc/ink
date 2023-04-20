@@ -13,7 +13,7 @@ connect(
     const playwright: Container = client
       .pipeline('test')
       .container()
-      .from('mcr.microsoft.com/playwright:v1.31.2-focal');
+      .from('mcr.microsoft.com/playwright:v1.32.3-focal');
 
     // prepare runner
     const runner: Container = playwright
