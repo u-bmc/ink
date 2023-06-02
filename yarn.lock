@@ -145,21 +145,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@dagger.io/dagger@npm:0.5.0":
-  version: 0.5.0
-  resolution: "@dagger.io/dagger@npm:0.5.0"
+"@dagger.io/dagger@npm:0.6.1":
+  version: 0.6.1
+  resolution: "@dagger.io/dagger@npm:0.6.1"
   dependencies:
     "@lifeomic/axios-fetch": ^3.0.1
     adm-zip: ^0.5.10
     env-paths: ^3.0.0
     execa: ^7.1.1
     graphql: ^16.5.0
-    graphql-request: ^5.1.0
+    graphql-request: ^6.0.0
     graphql-tag: ^2.12.6
     node-color-log: ^10.0.2
     node-fetch: ^3.3.1
     tar: ^6.1.13
-  checksum: 23626de38e5caab354699fa65cc78b680a785965b75f353be942a7ff823a7d040cf9172c4af1e1a6fb71d7a2882922a63da31bea58ed9488e66a38562c154c74
+  checksum: d4c61efa4b39410ed3430e3d9c3d98c4a5d96af9b233d699565bbacbd22d3847a5de78888e6368961b2f105a872957adeb802a01a61a72618a14e146eeb436cd
   languageName: node
   linkType: hard
 
@@ -366,12 +366,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@graphql-typed-document-node/core@npm:^3.1.1":
-  version: 3.1.1
-  resolution: "@graphql-typed-document-node/core@npm:3.1.1"
+"@graphql-typed-document-node/core@npm:^3.2.0":
+  version: 3.2.0
+  resolution: "@graphql-typed-document-node/core@npm:3.2.0"
   peerDependencies:
-    graphql: ^0.8.0 || ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0
-  checksum: 87ff4cee308f1075f4472b80f9f9409667979940f8f701e87f0aa35ce5cf104d94b41258ea8192d05a0893475cd0f086a3929a07663b4fe8d0e805a277f07ed5
+    graphql: ^0.8.0 || ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
+  checksum: fa44443accd28c8cf4cb96aaaf39d144a22e8b091b13366843f4e97d19c7bfeaf609ce3c7603a4aeffe385081eaf8ea245d078633a7324c11c5ec4b2011bb76d
   languageName: node
   linkType: hard
 
@@ -2245,13 +2245,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"extract-files@npm:^9.0.0":
-  version: 9.0.0
-  resolution: "extract-files@npm:9.0.0"
-  checksum: c31781d090f8d8f62cc541f1023b39ea863f24bd6fb3d4011922d71cbded70cef8191f2b70b43ec6cb5c5907cdad1dc5e9f29f78228936c10adc239091d8ab64
-  languageName: node
-  linkType: hard
-
 "fast-deep-equal@npm:^3.1.1, fast-deep-equal@npm:^3.1.3":
   version: 3.1.3
   resolution: "fast-deep-equal@npm:3.1.3"
@@ -2569,17 +2562,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"graphql-request@npm:^5.1.0":
-  version: 5.1.0
-  resolution: "graphql-request@npm:5.1.0"
+"graphql-request@npm:^6.0.0":
+  version: 6.1.0
+  resolution: "graphql-request@npm:6.1.0"
   dependencies:
-    "@graphql-typed-document-node/core": ^3.1.1
+    "@graphql-typed-document-node/core": ^3.2.0
     cross-fetch: ^3.1.5
-    extract-files: ^9.0.0
-    form-data: ^3.0.0
   peerDependencies:
     graphql: 14 - 16
-  checksum: 8b65d5c1b0cad8996a843b52305b2712ffbf842c700487d4cee1ed719f22baacaacfddafb65572bcddd67d57fd1d2d389dee2430ffba4b34c3ab542d079446c7
+  checksum: 6d62630a0169574442320651c1f7626c0c602025c3c46b19e09417c9579bb209306ee63de9793a03be2e1701bb7f13971f8545d99bc6573e340f823af0ad35b2
   languageName: node
   linkType: hard
 
@@ -2742,7 +2733,7 @@ __metadata:
   resolution: "ink@workspace:."
   dependencies:
     "@carbon/charts-svelte": 1.7.1
-    "@dagger.io/dagger": 0.5.0
+    "@dagger.io/dagger": 0.6.1
     "@playwright/test": 1.32.3
     "@sveltejs/adapter-static": 2.0.2
     "@sveltejs/kit": 1.15.7
