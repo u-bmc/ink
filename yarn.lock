@@ -12,89 +12,91 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@carbon/charts-svelte@npm:1.7.1":
-  version: 1.7.1
-  resolution: "@carbon/charts-svelte@npm:1.7.1"
+"@carbon/charts-svelte@npm:1.8.0":
+  version: 1.8.0
+  resolution: "@carbon/charts-svelte@npm:1.8.0"
   dependencies:
-    "@carbon/charts": ^1.7.1
+    "@carbon/charts": ^1.8.0
     "@carbon/telemetry": 0.1.0
   peerDependencies:
     svelte: ^3.31.x
-  checksum: c3bd9d02824d2257eb92d034194516455b0b3fe5cb1b2a939a2d27e321f1abab33669ddbb32d3d0fd45fc4b8b1d74bb538c8eb1e9aff775edf008afdb23f1d9c
+  checksum: 76c327961114558f18bfea259ee40e7a423c89a19683bb11e7bb3a1746c94a2bda3208bd39cb90eb9bac212f34eedf9fda153d2a874ca91a98d836e62b816a35
   languageName: node
   linkType: hard
 
-"@carbon/charts@npm:^1.7.1":
-  version: 1.7.1
-  resolution: "@carbon/charts@npm:1.7.1"
+"@carbon/charts@npm:^1.8.0":
+  version: 1.8.0
+  resolution: "@carbon/charts@npm:1.8.0"
   dependencies:
-    "@carbon/styles": ^1.26.0
+    "@carbon/styles": ^1.4.0
     "@carbon/telemetry": ^0.1.0
     "@carbon/utils-position": ^1.1.4
     carbon-components: ^10.58.3
     d3-cloud: 1.2.5
     d3-sankey: 0.12.3
     date-fns: 2.8.1
+    dom-to-image-more: ^3.1.6
     lodash-es: 4.17.21
     resize-observer-polyfill: 1.5.0
+    topojson-client: 3.1.0
   peerDependencies:
     d3: 7.x
-  checksum: 14cc2c97b0916f34e557dc8a1cb39ac486f237bf5135a1b3a510da9e7fb2a03f1146b7b1d2ad3046e9da2b9d481597fc3b2c2a389f921261278fae9d63922d93
+  checksum: ba97e4b0cdd6d451e078183848f00a5c709dedd7aa50b6f4340e47384ae9156fcc6de64500bfe2bccd2d45a19438f84a30e68502dabdfc6413ac44d80af14c45
   languageName: node
   linkType: hard
 
-"@carbon/colors@npm:^11.14.0":
+"@carbon/colors@npm:^11.15.0":
+  version: 11.15.0
+  resolution: "@carbon/colors@npm:11.15.0"
+  checksum: cf9ba33062dd6d7f132aeebb4025b2c6da01fca2bb6b23080eee1cd39e58a5fed6b5670298aa13bc08e93737726349246e7c0ef85569bcfccdf1bb3bcd8e26ca
+  languageName: node
+  linkType: hard
+
+"@carbon/feature-flags@npm:^0.14.0":
+  version: 0.14.0
+  resolution: "@carbon/feature-flags@npm:0.14.0"
+  checksum: 6949630de92ca373d83164bc2e3f90ae43777f134e74dfc6780c6bda8c2bce666ed037ccdb8a91650d7dc2e9960a3ab21f291c704cb0a8f2dbde1851645d5f56
+  languageName: node
+  linkType: hard
+
+"@carbon/grid@npm:^11.14.0":
   version: 11.14.0
-  resolution: "@carbon/colors@npm:11.14.0"
-  checksum: 35aa802a5f044af5f0654bf0cd757b42b84425d149ae724fab3daa507a5244e67fe4a1fdc18bb50d1fbc838580b5c4904e77f46f6e5b5bf4a24ee2fc3e58da77
-  languageName: node
-  linkType: hard
-
-"@carbon/feature-flags@npm:^0.13.0":
-  version: 0.13.0
-  resolution: "@carbon/feature-flags@npm:0.13.0"
-  checksum: 4bdb63997a7cde3ca8dcf15bed5d209c4bfa1447c26de7dbaf593e170807d97c78a09a294dad9e9bf083e9b11d7207cf38f6d52e471b5cdc2236ea3058ec5457
-  languageName: node
-  linkType: hard
-
-"@carbon/grid@npm:^11.13.0":
-  version: 11.13.0
-  resolution: "@carbon/grid@npm:11.13.0"
+  resolution: "@carbon/grid@npm:11.14.0"
   dependencies:
-    "@carbon/layout": ^11.13.0
-  checksum: 413accb54ef10bb7df46b6fa9e278fa6b90736edab21a1cf3ff040651629964bbc67466fecad0e46de0dfd07432a4ff2b4b3d6b416dff25ea40878149b12a96b
+    "@carbon/layout": ^11.14.0
+  checksum: 9407d3bf132852eb0835bd269aab2497b8f531d9fd5df392bc02a15ce7bbf2d44b9a2426356eed8a537204a566fcbd928f85072884acab7dd1b18172c5d8203e
   languageName: node
   linkType: hard
 
-"@carbon/layout@npm:^11.13.0":
-  version: 11.13.0
-  resolution: "@carbon/layout@npm:11.13.0"
-  checksum: 76b1a42ab44ffc6ef778b6811f30310db860d24189dd59635a5aa12836631f76b09f2ee0d5e5d97fb7dd3030dce252bcdc3f04e9b5e1717e45de6294944522a1
+"@carbon/layout@npm:^11.14.0":
+  version: 11.14.0
+  resolution: "@carbon/layout@npm:11.14.0"
+  checksum: 40b1078d560ee9a047f25ff9d0f0cd0579996e92d3a3105b645c4d6ee204a1db528babcd81ceddf10468574ea9d2b37cb58b8d672f086e3a2c291b760295d91a
   languageName: node
   linkType: hard
 
-"@carbon/motion@npm:^11.10.0":
-  version: 11.10.0
-  resolution: "@carbon/motion@npm:11.10.0"
-  checksum: c6e93dfd9253a669f7b9c9657a208af39971efe0f31977a8ad6883e6706ca88e7d901a6d3dd96d4217d995d12f63d605ff3a797bc4c0f6e3abc555649213d110
+"@carbon/motion@npm:^11.11.0":
+  version: 11.11.0
+  resolution: "@carbon/motion@npm:11.11.0"
+  checksum: ba518d8e0d094cf2cd3e93e06c27d0b7c0f456c8d178d28ca14bffeff3caf7c5edcdc01f7336a3480832f974bca5c8db8846400f0bcaf6bed0d215c1316dc2d6
   languageName: node
   linkType: hard
 
-"@carbon/styles@npm:^1.26.0":
-  version: 1.27.0
-  resolution: "@carbon/styles@npm:1.27.0"
+"@carbon/styles@npm:^1.4.0":
+  version: 1.30.0
+  resolution: "@carbon/styles@npm:1.30.0"
   dependencies:
-    "@carbon/colors": ^11.14.0
-    "@carbon/feature-flags": ^0.13.0
-    "@carbon/grid": ^11.13.0
-    "@carbon/layout": ^11.13.0
-    "@carbon/motion": ^11.10.0
-    "@carbon/themes": ^11.18.0
-    "@carbon/type": ^11.17.0
+    "@carbon/colors": ^11.15.0
+    "@carbon/feature-flags": ^0.14.0
+    "@carbon/grid": ^11.14.0
+    "@carbon/layout": ^11.14.0
+    "@carbon/motion": ^11.11.0
+    "@carbon/themes": ^11.19.0
+    "@carbon/type": ^11.18.0
     "@ibm/plex": 6.0.0-next.6
   peerDependencies:
     sass: ^1.33.0
-  checksum: 881967cf104b4a51a90b1541f4cf15518023d173467223839c6f82e37e30faa3d71bf34ccadfabdebb7a2d37d823068584e12e97227b0bf4cb338d0e8da2601d
+  checksum: 76b4c90e38c81a3b275b0ebc8253c24bc0ed2a6dbef7d52a1bcb930eedb6eecdd3f83ace1784e20b803b0e5d3cc96311e42a9ef73a48135be3aac0482b5030bc
   languageName: node
   linkType: hard
 
@@ -107,25 +109,25 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@carbon/themes@npm:^11.18.0":
-  version: 11.18.0
-  resolution: "@carbon/themes@npm:11.18.0"
+"@carbon/themes@npm:^11.19.0":
+  version: 11.19.0
+  resolution: "@carbon/themes@npm:11.19.0"
   dependencies:
-    "@carbon/colors": ^11.14.0
-    "@carbon/layout": ^11.13.0
-    "@carbon/type": ^11.17.0
+    "@carbon/colors": ^11.15.0
+    "@carbon/layout": ^11.14.0
+    "@carbon/type": ^11.18.0
     color: ^4.0.0
-  checksum: 3b2f8431887c8981ae792f58621f20ff7af66957d4cd2e10687991a9e39e3d9395e35d788791ea1cf17f01c0aa3db2ff8bf92583e9f6278a3b5a40e98265d6d6
+  checksum: e4d6ad63b020a1108185967f93b85dd34a7b4b4f37c8ae4f632d611df0accfd2a6ca3df5f864d8c87483a58ffdec0e887da6cc2e96bc3d044bd66c58c3820c48
   languageName: node
   linkType: hard
 
-"@carbon/type@npm:^11.17.0":
-  version: 11.17.0
-  resolution: "@carbon/type@npm:11.17.0"
+"@carbon/type@npm:^11.18.0":
+  version: 11.18.0
+  resolution: "@carbon/type@npm:11.18.0"
   dependencies:
-    "@carbon/grid": ^11.13.0
-    "@carbon/layout": ^11.13.0
-  checksum: 025a4426888b05346e5e3eab24ab1bba714558afabb60f0714bc876992df9441839f0695411d8c663edc374a86a62940a691560c30aaf713179b0372c064b905
+    "@carbon/grid": ^11.14.0
+    "@carbon/layout": ^11.14.0
+  checksum: 3bfa1a2c2dd138a15510bda15ff4d843d4437f2437cbede6336fba7e96f141d84e769d3e4e7802bf2e5d94104572f172749c03ec8bac554b3a71537810b48b34
   languageName: node
   linkType: hard
 
@@ -1348,6 +1350,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"commander@npm:2":
+  version: 2.20.3
+  resolution: "commander@npm:2.20.3"
+  checksum: ab8c07884e42c3a8dbc5dd9592c606176c7eb5c1ca5ff274bcf907039b2c41de3626f684ea75ccf4d361ba004bbaff1f577d5384c155f3871e456bdf27becf9e
+  languageName: node
+  linkType: hard
+
 "commander@npm:7":
   version: 7.2.0
   resolution: "commander@npm:7.2.0"
@@ -1935,6 +1944,13 @@ __metadata:
   dependencies:
     esutils: ^2.0.2
   checksum: fd7673ca77fe26cd5cba38d816bc72d641f500f1f9b25b83e8ce28827fe2da7ad583a8da26ab6af85f834138cf8dae9f69b0cd6ab925f52ddab1754db44d99ce
+  languageName: node
+  linkType: hard
+
+"dom-to-image-more@npm:^3.1.6":
+  version: 3.1.6
+  resolution: "dom-to-image-more@npm:3.1.6"
+  checksum: ea47d516528e77d51d9937b334c0a61fbeb9ac9a9fd3cc5fbf62e505d33fa00a7cf37b8b1080dcc9f204117b06e9299bb1bbb8af0dd5c449ab3a8f3b79b759e0
   languageName: node
   linkType: hard
 
@@ -2741,7 +2757,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "ink@workspace:."
   dependencies:
-    "@carbon/charts-svelte": 1.7.1
+    "@carbon/charts-svelte": 1.8.0
     "@dagger.io/dagger": 0.5.0
     "@playwright/test": 1.32.3
     "@sveltejs/adapter-static": 2.0.2
@@ -4395,6 +4411,19 @@ __metadata:
   dependencies:
     is-number: ^7.0.0
   checksum: f76fa01b3d5be85db6a2a143e24df9f60dd047d151062d0ba3df62953f2f697b16fe5dad9b0ac6191c7efc7b1d9dcaa4b768174b7b29da89d4428e64bc0a20ed
+  languageName: node
+  linkType: hard
+
+"topojson-client@npm:3.1.0":
+  version: 3.1.0
+  resolution: "topojson-client@npm:3.1.0"
+  dependencies:
+    commander: 2
+  bin:
+    topo2geo: bin/topo2geo
+    topomerge: bin/topomerge
+    topoquantize: bin/topoquantize
+  checksum: 8c029a4f18324ace0b8b55dd90edbd40c9e3c6de18bafbb5da37ca20ebf20e26fbd4420891acb3c2c264e214185f7557871f5651a9eee517028663be98d836de
   languageName: node
   linkType: hard
 
