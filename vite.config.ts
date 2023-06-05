@@ -1,6 +1,6 @@
-import { sveltekit } from '@sveltejs/kit/vite';
-import { defineConfig, type UserConfig } from 'vite';
-import type { InlineConfig } from 'vitest';
+import { sveltekit } from "@sveltejs/kit/vite";
+import { defineConfig, type UserConfig } from "vite";
+import type { InlineConfig } from "vitest";
 
 interface VitestConfigExport extends UserConfig {
   test: InlineConfig;
@@ -8,14 +8,16 @@ interface VitestConfigExport extends UserConfig {
 
 export default defineConfig({
   plugins: [sveltekit()],
-  ssr: {
-    noExternal: ['@carbon/charts', 'carbon-components']
+  server: {
+    fs: {
+      allow: [".yarn"]
+    }
   },
   test: {
     coverage: {
-      provider: 'c8'
+      provider: "c8"
     },
-    include: ['tests/*.test.ts'],
+    include: ["tests/*.test.ts"],
     watch: false
   }
 } as VitestConfigExport);

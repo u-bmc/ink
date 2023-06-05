@@ -1,62 +1,72 @@
-<script>
-  import 'carbon-components/css/carbon-components.min.css';
-  import {
-    Header,
-    HeaderUtilities,
-    HeaderAction,
-    HeaderPanelLinks,
-    HeaderPanelLink,
-    SideNav,
-    SideNavItems,
-    SideNavLink,
-    SkipToContent,
-    Content
-  } from 'carbon-components-svelte';
-  import {
-    Catalog,
-    Chip,
-    Dashboard,
-    Information,
-    Meter,
-    Settings,
-    UserAvatarFilledAlt,
-    VideoChat
-  } from 'carbon-icons-svelte';
-
-  let isSideNavOpen = false;
-  let isUserMenuOpen = false;
+<script lang="ts">
+  import { AppBar, AppRail, AppRailAnchor, AppShell } from '@skeletonlabs/skeleton';
+  import { page } from '$app/stores';
+  import { Gauge, LayoutDashboard, Settings, Server, ServerCog, UserCircle } from 'lucide-svelte';
 </script>
 
-<Header company="u-bmc" platformName="Dev Server" bind:isSideNavOpen>
-  <svelte:fragment slot="skip-to-content">
-    <SkipToContent />
+<AppShell>
+  <svelte:fragment slot="header">
+    <AppBar>
+      <svelte:fragment slot="lead">
+        <Server />
+      </svelte:fragment>
+      <div>(Machine Name)</div>
+      <svelte:fragment slot="trail">
+        <ServerCog />
+        <UserCircle />
+      </svelte:fragment>
+    </AppBar>
   </svelte:fragment>
-  <HeaderUtilities>
-    <HeaderAction
-      bind:isOpen={isUserMenuOpen}
-      icon={UserAvatarFilledAlt}
-      closeIcon={UserAvatarFilledAlt}
-    >
-      <HeaderPanelLinks>
-        <HeaderPanelLink>Change Password</HeaderPanelLink>
-        <HeaderPanelLink>Log out</HeaderPanelLink>
-      </HeaderPanelLinks>
-    </HeaderAction>
-  </HeaderUtilities>
-
-  <SideNav bind:isOpen={isSideNavOpen} rail>
-    <SideNavItems>
-      <SideNavLink icon={Dashboard} text="Dashboard" href="/dashboard" isSelected />
-      <SideNavLink icon={Chip} text="System Information" href="/dashboard/sysinfo" />
-      <SideNavLink icon={Meter} text="Sensors" href="/dashboard/sensors" />
-      <SideNavLink icon={Catalog} text="Logs" href="/dashboard/logs" />
-      <SideNavLink icon={VideoChat} text="Remote Control" href="/dashboard/remote" />
-      <SideNavLink icon={Settings} text="Settings" href="/dashboard/settings" />
-      <SideNavLink icon={Information} text="About" href="/dashboard/about" />
-    </SideNavItems>
-  </SideNav>
-</Header>
-
-<Content>
-  <slot />
-</Content>
+  <svelte:fragment slot="sidebarLeft">
+    <AppRail>
+      <AppRailAnchor
+        href="/dashboard/overview"
+        name="Overview"
+        selected={$page.url.pathname === '/dashboard/overview'}
+      >
+        <svelte:fragment slot="lead">
+          <span class="container h-full mx-auto flex justify-center items-center">
+            <LayoutDashboard />
+          </span>
+        </svelte:fragment>
+        <span>Overview</span>
+      </AppRailAnchor>
+      <AppRailAnchor
+        href="/dashboard/sensors"
+        name="Sensors"
+        selected={$page.url.pathname === '/dashboard/sensors'}
+      >
+        <svelte:fragment slot="lead">
+          <span class="container h-full mx-auto flex justify-center items-center">
+            <Gauge />
+          </span>
+        </svelte:fragment>
+        <span>Sensors</span>
+      </AppRailAnchor>
+      <AppRailAnchor
+        href="/dashboard/settings"
+        name="Settings"
+        selected={$page.url.pathname === '/dashboard/settings'}
+      >
+        <svelte:fragment slot="lead">
+          <span class="container h-full mx-auto flex justify-center items-center">
+            <Settings />
+          </span>
+        </svelte:fragment>
+        <span>Settings</span>
+      </AppRailAnchor>
+      <svelte:fragment slot="trail">
+        <AppRailAnchor
+          href="/dashboard/about"
+          name="About"
+          selected={$page.url.pathname === '/dashboard/about'}
+        >
+          <span>About</span>
+        </AppRailAnchor>
+      </svelte:fragment>
+    </AppRail>
+  </svelte:fragment>
+  <div class="container p-10 mx-auto">
+    <slot />
+  </div>
+</AppShell>
