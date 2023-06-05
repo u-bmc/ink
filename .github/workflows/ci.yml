@@ -34,7 +34,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 18.12.x
-          cache: 'yarn'
+          cache: "yarn"
       - name: Yarn Install
         run: yarn install --frozen-lockfile --immutable
       - name: Dagger Build
@@ -51,7 +51,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 18.12.x
-          cache: 'yarn'
+          cache: "yarn"
       - name: Yarn Install
         run: yarn install --frozen-lockfile --immutable
       - name: Run Linter
@@ -68,7 +68,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 18.12.x
-          cache: 'yarn'
+          cache: "yarn"
       - name: Yarn Install
         run: yarn install --frozen-lockfile --immutable
       - name: Dagger Test
