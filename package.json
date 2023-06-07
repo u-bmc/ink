@@ -45,10 +45,10 @@
       "command": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json"
     },
     "lint": {
-      "command": "prettier --plugin-search-dir=. --check ./ && eslint ./"
+      "command": "prettier --ignore-unknown --check './**/*' && eslint"
     },
     "format": {
-      "command": "prettier --plugin-search-dir=. --write ./"
+      "command": "prettier --ignore-unknown --write './**/*'"
     }
   },
   "type": "module",

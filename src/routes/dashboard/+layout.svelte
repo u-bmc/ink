@@ -1,7 +1,7 @@
 <script lang="ts">
-  import { AppBar, AppRail, AppRailAnchor, AppShell, LightSwitch } from '@skeletonlabs/skeleton';
-  import { page } from '$app/stores';
-  import { Gauge, LayoutDashboard, Settings, Server, ServerCog, UserCircle } from 'lucide-svelte';
+  import { AppBar, AppRail, AppRailAnchor, AppShell, LightSwitch } from "@skeletonlabs/skeleton";
+  import { page } from "$app/stores";
+  import { Gauge, LayoutDashboard, Settings, Server, ServerCog, UserCircle } from "lucide-svelte";
 </script>
 
 <AppShell>
@@ -23,7 +23,7 @@
       <AppRailAnchor
         href="/dashboard/overview"
         name="Overview"
-        selected={$page.url.pathname === '/dashboard/overview'}
+        selected={$page.url.pathname === "/dashboard/overview"}
       >
         <svelte:fragment slot="lead">
           <span class="container h-full mx-auto flex justify-center items-center">
@@ -35,7 +35,7 @@
       <AppRailAnchor
         href="/dashboard/sensors"
         name="Sensors"
-        selected={$page.url.pathname === '/dashboard/sensors'}
+        selected={$page.url.pathname === "/dashboard/sensors"}
       >
         <svelte:fragment slot="lead">
           <span class="container h-full mx-auto flex justify-center items-center">
@@ -47,7 +47,7 @@
       <AppRailAnchor
         href="/dashboard/settings"
         name="Settings"
-        selected={$page.url.pathname === '/dashboard/settings'}
+        selected={$page.url.pathname === "/dashboard/settings"}
       >
         <svelte:fragment slot="lead">
           <span class="container h-full mx-auto flex justify-center items-center">
@@ -60,7 +60,7 @@
         <AppRailAnchor
           href="/dashboard/about"
           name="About"
-          selected={$page.url.pathname === '/dashboard/about'}
+          selected={$page.url.pathname === "/dashboard/about"}
         >
           <span>About</span>
         </AppRailAnchor>
