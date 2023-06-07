@@ -51,6 +51,59 @@
       "command": "prettier --ignore-unknown --write './**/*'"
     }
   },
+  "prettier": {
+    "useTabs": false,
+    "singleQuote": false,
+    "trailingComma": "none",
+    "printWidth": 100,
+    "plugins": [
+      "prettier-plugin-svelte"
+    ],
+    "overrides": [
+      {
+        "files": "*.svelte",
+        "options": {
+          "parser": "svelte"
+        }
+      }
+    ]
+  },
+  "eslintConfig": {
+    "root": true,
+    "extends": [
+      "eslint:recommended",
+      "plugin:@typescript-eslint/recommended",
+      "plugin:svelte/recommended",
+      "prettier"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "plugins": [
+      "@typescript-eslint"
+    ],
+    "parserOptions": {
+      "sourceType": "module",
+      "ecmaVersion": 2020,
+      "extraFileExtensions": [
+        ".svelte"
+      ]
+    },
+    "env": {
+      "browser": true,
+      "es2017": true,
+      "node": true
+    },
+    "overrides": [
+      {
+        "files": [
+          "*.svelte"
+        ],
+        "parser": "svelte-eslint-parser",
+        "parserOptions": {
+          "parser": "@typescript-eslint/parser"
+        }
+      }
+    ]
+  },
   "type": "module",
   "devDependencies": {
     "@dagger.io/dagger": "0.6.1",
@@ -69,7 +122,7 @@
     "eslint": "8.42.0",
     "eslint-config-prettier": "8.8.0",
     "eslint-plugin-svelte": "2.30.0",
-    "lucide-svelte": "^0.236.0",
+    "lucide-svelte": "0.236.0",
     "postcss": "8.4.24",
     "prettier": "2.8.8",
     "prettier-plugin-svelte": "2.10.1",
