@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { AppBar, AppRail, AppRailAnchor, AppShell } from '@skeletonlabs/skeleton';
+  import { AppBar, AppRail, AppRailAnchor, AppShell, LightSwitch } from '@skeletonlabs/skeleton';
   import { page } from '$app/stores';
   import { Gauge, LayoutDashboard, Settings, Server, ServerCog, UserCircle } from 'lucide-svelte';
 </script>
@@ -12,6 +12,7 @@
       </svelte:fragment>
       <div>(Machine Name)</div>
       <svelte:fragment slot="trail">
+        <LightSwitch />
         <ServerCog />
         <UserCircle />
       </svelte:fragment>
