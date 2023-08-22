@@ -15,7 +15,7 @@ export default defineConfig({
   },
   test: {
     coverage: {
-      provider: "c8",
+      provider: "v8",
       exclude: [".pnp.*"]
     },
     include: ["tests/*.test.ts"],

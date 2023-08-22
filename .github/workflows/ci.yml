@@ -68,7 +68,7 @@ jobs:
       - name: Yarn Install
         run: yarn install --frozen-lockfile --immutable
       - name: Dagger Test
-        run: yarn run test:ci
+        run: yarn run test
       - name: Codecov
         uses: codecov/codecov-action@v3
         with:
