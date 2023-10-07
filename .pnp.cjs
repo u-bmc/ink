@@ -45,7 +45,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-config-prettier", "virtual:20a68dea8c3b7751461ff0627cd486b7abfa2c43d4d4b20cd3ec98be6777228c8b6da62c2f4d4910252ac621aec64addd3a262df8a2faa3628b2db527af06a1d#npm:8.8.0"],\
             ["eslint-plugin-svelte", "virtual:20a68dea8c3b7751461ff0627cd486b7abfa2c43d4d4b20cd3ec98be6777228c8b6da62c2f4d4910252ac621aec64addd3a262df8a2faa3628b2db527af06a1d#npm:2.30.0"],\
             ["lucide-svelte", "virtual:20a68dea8c3b7751461ff0627cd486b7abfa2c43d4d4b20cd3ec98be6777228c8b6da62c2f4d4910252ac621aec64addd3a262df8a2faa3628b2db527af06a1d#npm:0.236.0"],\
-            ["postcss", "npm:8.4.24"],\
+            ["postcss", "npm:8.4.31"],\
             ["prettier", "npm:2.8.8"],\
             ["prettier-plugin-svelte", "virtual:20a68dea8c3b7751461ff0627cd486b7abfa2c43d4d4b20cd3ec98be6777228c8b6da62c2f4d4910252ac621aec64addd3a262df8a2faa3628b2db527af06a1d#npm:2.10.1"],\
             ["svelte", "npm:3.59.1"],\
@@ -1397,7 +1397,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["fraction.js", "npm:4.2.0"],\
             ["normalize-range", "npm:0.1.2"],\
             ["picocolors", "npm:1.0.0"],\
-            ["postcss", "npm:8.4.24"],\
+            ["postcss", "npm:8.4.31"],\
             ["postcss-value-parser", "npm:4.2.0"]\
           ],\
           "packagePeers": [\
@@ -2147,7 +2147,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint", "npm:8.42.0"],\
             ["esutils", "npm:2.0.3"],\
             ["known-css-properties", "npm:0.27.0"],\
-            ["postcss", "npm:8.4.24"],\
+            ["postcss", "npm:8.4.31"],\
             ["postcss-load-config", "virtual:f41b0b7ef473747a8b50f6234e5cecb6fe668f5bc2450c2953e7519d019ffe46aeeddaa109adcc4b2ca65c9bcbd61414521b6d8d13e0f1c47e916ed28434a43b#npm:3.1.4"],\
             ["postcss-safe-parser", "virtual:f41b0b7ef473747a8b50f6234e5cecb6fe668f5bc2450c2953e7519d019ffe46aeeddaa109adcc4b2ca65c9bcbd61414521b6d8d13e0f1c47e916ed28434a43b#npm:6.0.0"],\
             ["svelte", "npm:3.59.1"],\
@@ -2892,7 +2892,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-config-prettier", "virtual:20a68dea8c3b7751461ff0627cd486b7abfa2c43d4d4b20cd3ec98be6777228c8b6da62c2f4d4910252ac621aec64addd3a262df8a2faa3628b2db527af06a1d#npm:8.8.0"],\
             ["eslint-plugin-svelte", "virtual:20a68dea8c3b7751461ff0627cd486b7abfa2c43d4d4b20cd3ec98be6777228c8b6da62c2f4d4910252ac621aec64addd3a262df8a2faa3628b2db527af06a1d#npm:2.30.0"],\
             ["lucide-svelte", "virtual:20a68dea8c3b7751461ff0627cd486b7abfa2c43d4d4b20cd3ec98be6777228c8b6da62c2f4d4910252ac621aec64addd3a262df8a2faa3628b2db527af06a1d#npm:0.236.0"],\
-            ["postcss", "npm:8.4.24"],\
+            ["postcss", "npm:8.4.31"],\
             ["prettier", "npm:2.8.8"],\
             ["prettier-plugin-svelte", "virtual:20a68dea8c3b7751461ff0627cd486b7abfa2c43d4d4b20cd3ec98be6777228c8b6da62c2f4d4910252ac621aec64addd3a262df8a2faa3628b2db527af06a1d#npm:2.10.1"],\
             ["svelte", "npm:3.59.1"],\
@@ -3976,10 +3976,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["postcss", [\
-        ["npm:8.4.24", {\
-          "packageLocation": "./.yarn/cache/postcss-npm-8.4.24-07c10836e5-814e2126da.zip/node_modules/postcss/",\
+        ["npm:8.4.31", {\
+          "packageLocation": "./.yarn/cache/postcss-npm-8.4.31-385051a82b-1d8611341b.zip/node_modules/postcss/",\
           "packageDependencies": [\
-            ["postcss", "npm:8.4.24"],\
+            ["postcss", "npm:8.4.31"],\
             ["nanoid", "npm:3.3.6"],\
             ["picocolors", "npm:1.0.0"],\
             ["source-map-js", "npm:1.0.2"]\
@@ -4000,7 +4000,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["postcss-import", "virtual:9311a8c9fc2fa723a363b04526c261872a9280ff9a5542cdc84255404f48ad5c7925fba5ed45881f7890d0d836206f3c952ef9a86f561b44b7d6e17f15c70e68#npm:15.1.0"],\
             ["@types/postcss", null],\
-            ["postcss", "npm:8.4.24"],\
+            ["postcss", "npm:8.4.31"],\
             ["postcss-value-parser", "npm:4.2.0"],\
             ["read-cache", "npm:1.0.0"],\
             ["resolve", "patch:resolve@npm%3A1.22.3#~builtin<compat/resolve>::version=1.22.3&hash=c3c19d"]\
@@ -4026,7 +4026,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["postcss-js", "virtual:9311a8c9fc2fa723a363b04526c261872a9280ff9a5542cdc84255404f48ad5c7925fba5ed45881f7890d0d836206f3c952ef9a86f561b44b7d6e17f15c70e68#npm:4.0.1"],\
             ["@types/postcss", null],\
             ["camelcase-css", "npm:2.0.1"],\
-            ["postcss", "npm:8.4.24"]\
+            ["postcss", "npm:8.4.31"]\
           ],\
           "packagePeers": [\
             "@types/postcss",\
@@ -4057,7 +4057,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/postcss", null],\
             ["@types/ts-node", null],\
             ["lilconfig", "npm:2.1.0"],\
-            ["postcss", "npm:8.4.24"],\
+            ["postcss", "npm:8.4.31"],\
             ["ts-node", null],\
             ["yaml", "npm:2.3.0"]\
           ],\
@@ -4076,7 +4076,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/postcss", null],\
             ["@types/ts-node", null],\
             ["lilconfig", "npm:2.1.0"],\
-            ["postcss", "npm:8.4.24"],\
+            ["postcss", "npm:8.4.31"],\
             ["ts-node", null],\
             ["yaml", "npm:1.10.2"]\
           ],\
@@ -4102,7 +4102,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["postcss-nested", "virtual:9311a8c9fc2fa723a363b04526c261872a9280ff9a5542cdc84255404f48ad5c7925fba5ed45881f7890d0d836206f3c952ef9a86f561b44b7d6e17f15c70e68#npm:6.0.1"],\
             ["@types/postcss", null],\
-            ["postcss", "npm:8.4.24"],\
+            ["postcss", "npm:8.4.31"],\
             ["postcss-selector-parser", "npm:6.0.13"]\
           ],\
           "packagePeers": [\
@@ -4125,7 +4125,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["postcss-safe-parser", "virtual:f41b0b7ef473747a8b50f6234e5cecb6fe668f5bc2450c2953e7519d019ffe46aeeddaa109adcc4b2ca65c9bcbd61414521b6d8d13e0f1c47e916ed28434a43b#npm:6.0.0"],\
             ["@types/postcss", null],\
-            ["postcss", "npm:8.4.24"]\
+            ["postcss", "npm:8.4.31"]\
           ],\
           "packagePeers": [\
             "@types/postcss",\
@@ -4860,7 +4860,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["detect-indent", "npm:6.1.0"],\
             ["less", null],\
             ["magic-string", "npm:0.27.0"],\
-            ["postcss", "npm:8.4.24"],\
+            ["postcss", "npm:8.4.31"],\
             ["postcss-load-config", null],\
             ["pug", null],\
             ["sass", null],\
@@ -4972,7 +4972,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["normalize-path", "npm:3.0.0"],\
             ["object-hash", "npm:3.0.0"],\
             ["picocolors", "npm:1.0.0"],\
-            ["postcss", "npm:8.4.24"],\
+            ["postcss", "npm:8.4.31"],\
             ["postcss-import", "virtual:9311a8c9fc2fa723a363b04526c261872a9280ff9a5542cdc84255404f48ad5c7925fba5ed45881f7890d0d836206f3c952ef9a86f561b44b7d6e17f15c70e68#npm:15.1.0"],\
             ["postcss-js", "virtual:9311a8c9fc2fa723a363b04526c261872a9280ff9a5542cdc84255404f48ad5c7925fba5ed45881f7890d0d836206f3c952ef9a86f561b44b7d6e17f15c70e68#npm:4.0.1"],\
             ["postcss-load-config", "virtual:9311a8c9fc2fa723a363b04526c261872a9280ff9a5542cdc84255404f48ad5c7925fba5ed45881f7890d0d836206f3c952ef9a86f561b44b7d6e17f15c70e68#npm:4.0.1"],\
@@ -5330,7 +5330,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["esbuild", "npm:0.17.11"],\
             ["fsevents", "patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=df0bf1"],\
             ["less", null],\
-            ["postcss", "npm:8.4.24"],\
+            ["postcss", "npm:8.4.31"],\
             ["rollup", "npm:3.23.0"],\
             ["sass", null],\
             ["stylus", null],\
@@ -5365,7 +5365,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["esbuild", "npm:0.17.11"],\
             ["fsevents", "patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=df0bf1"],\
             ["less", null],\
-            ["postcss", "npm:8.4.24"],\
+            ["postcss", "npm:8.4.31"],\
             ["rollup", "npm:3.23.0"],\
             ["sass", null],\
             ["stylus", null],\
