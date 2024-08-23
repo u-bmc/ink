@@ -2300,7 +2300,7 @@ __metadata:
     eslint: 8.42.0
     eslint-config-prettier: 8.8.0
     eslint-plugin-svelte: 2.30.0
-    lucide-svelte: ^0.236.0
+    lucide-svelte: ^0.435.0
     postcss: 8.4.24
     prettier: 2.8.8
     prettier-plugin-svelte: 2.10.1
@@ -2583,12 +2583,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lucide-svelte@npm:^0.236.0":
-  version: 0.236.0
-  resolution: "lucide-svelte@npm:0.236.0"
+"lucide-svelte@npm:^0.435.0":
+  version: 0.435.0
+  resolution: "lucide-svelte@npm:0.435.0"
   peerDependencies:
-    svelte: ^3.49.0
-  checksum: 77f4549abe0c5336d11735781f735ab4cd0cd2ed63f3fb2a305d49f75dfeb5f434a8dc62a4d246ac82d3de4ffebe87dd2c990e7a9419dbf22609032308a63867
+    svelte: ^3 || ^4 || ^5.0.0-next.42
+  checksum: c92be0554e0eb050d6ddfc829ff80cc822f90c040bbc60f425cdc36d71114ced05f3546efa3588b6986135bbbb1f3e1ef0c59e3021354c78f35317fad42486a7
   languageName: node
   linkType: hard
 

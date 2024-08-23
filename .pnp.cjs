@@ -44,7 +44,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint", "npm:8.42.0"],\
             ["eslint-config-prettier", "virtual:20a68dea8c3b7751461ff0627cd486b7abfa2c43d4d4b20cd3ec98be6777228c8b6da62c2f4d4910252ac621aec64addd3a262df8a2faa3628b2db527af06a1d#npm:8.8.0"],\
             ["eslint-plugin-svelte", "virtual:20a68dea8c3b7751461ff0627cd486b7abfa2c43d4d4b20cd3ec98be6777228c8b6da62c2f4d4910252ac621aec64addd3a262df8a2faa3628b2db527af06a1d#npm:2.30.0"],\
-            ["lucide-svelte", "virtual:20a68dea8c3b7751461ff0627cd486b7abfa2c43d4d4b20cd3ec98be6777228c8b6da62c2f4d4910252ac621aec64addd3a262df8a2faa3628b2db527af06a1d#npm:0.236.0"],\
+            ["lucide-svelte", "virtual:20a68dea8c3b7751461ff0627cd486b7abfa2c43d4d4b20cd3ec98be6777228c8b6da62c2f4d4910252ac621aec64addd3a262df8a2faa3628b2db527af06a1d#npm:0.435.0"],\
             ["postcss", "npm:8.4.24"],\
             ["prettier", "npm:2.8.8"],\
             ["prettier-plugin-svelte", "virtual:20a68dea8c3b7751461ff0627cd486b7abfa2c43d4d4b20cd3ec98be6777228c8b6da62c2f4d4910252ac621aec64addd3a262df8a2faa3628b2db527af06a1d#npm:2.10.1"],\
@@ -2891,7 +2891,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint", "npm:8.42.0"],\
             ["eslint-config-prettier", "virtual:20a68dea8c3b7751461ff0627cd486b7abfa2c43d4d4b20cd3ec98be6777228c8b6da62c2f4d4910252ac621aec64addd3a262df8a2faa3628b2db527af06a1d#npm:8.8.0"],\
             ["eslint-plugin-svelte", "virtual:20a68dea8c3b7751461ff0627cd486b7abfa2c43d4d4b20cd3ec98be6777228c8b6da62c2f4d4910252ac621aec64addd3a262df8a2faa3628b2db527af06a1d#npm:2.30.0"],\
-            ["lucide-svelte", "virtual:20a68dea8c3b7751461ff0627cd486b7abfa2c43d4d4b20cd3ec98be6777228c8b6da62c2f4d4910252ac621aec64addd3a262df8a2faa3628b2db527af06a1d#npm:0.236.0"],\
+            ["lucide-svelte", "virtual:20a68dea8c3b7751461ff0627cd486b7abfa2c43d4d4b20cd3ec98be6777228c8b6da62c2f4d4910252ac621aec64addd3a262df8a2faa3628b2db527af06a1d#npm:0.435.0"],\
             ["postcss", "npm:8.4.24"],\
             ["prettier", "npm:2.8.8"],\
             ["prettier-plugin-svelte", "virtual:20a68dea8c3b7751461ff0627cd486b7abfa2c43d4d4b20cd3ec98be6777228c8b6da62c2f4d4910252ac621aec64addd3a262df8a2faa3628b2db527af06a1d#npm:2.10.1"],\
@@ -3228,17 +3228,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["lucide-svelte", [\
-        ["npm:0.236.0", {\
-          "packageLocation": "./.yarn/cache/lucide-svelte-npm-0.236.0-f543375cd0-77f4549abe.zip/node_modules/lucide-svelte/",\
+        ["npm:0.435.0", {\
+          "packageLocation": "./.yarn/cache/lucide-svelte-npm-0.435.0-16ce7bf7f6-c92be0554e.zip/node_modules/lucide-svelte/",\
           "packageDependencies": [\
-            ["lucide-svelte", "npm:0.236.0"]\
+            ["lucide-svelte", "npm:0.435.0"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:20a68dea8c3b7751461ff0627cd486b7abfa2c43d4d4b20cd3ec98be6777228c8b6da62c2f4d4910252ac621aec64addd3a262df8a2faa3628b2db527af06a1d#npm:0.236.0", {\
-          "packageLocation": "./.yarn/__virtual__/lucide-svelte-virtual-31b1458048/0/cache/lucide-svelte-npm-0.236.0-f543375cd0-77f4549abe.zip/node_modules/lucide-svelte/",\
+        ["virtual:20a68dea8c3b7751461ff0627cd486b7abfa2c43d4d4b20cd3ec98be6777228c8b6da62c2f4d4910252ac621aec64addd3a262df8a2faa3628b2db527af06a1d#npm:0.435.0", {\
+          "packageLocation": "./.yarn/__virtual__/lucide-svelte-virtual-4f7a3c67aa/0/cache/lucide-svelte-npm-0.435.0-16ce7bf7f6-c92be0554e.zip/node_modules/lucide-svelte/",\
           "packageDependencies": [\
-            ["lucide-svelte", "virtual:20a68dea8c3b7751461ff0627cd486b7abfa2c43d4d4b20cd3ec98be6777228c8b6da62c2f4d4910252ac621aec64addd3a262df8a2faa3628b2db527af06a1d#npm:0.236.0"],\
+            ["lucide-svelte", "virtual:20a68dea8c3b7751461ff0627cd486b7abfa2c43d4d4b20cd3ec98be6777228c8b6da62c2f4d4910252ac621aec64addd3a262df8a2faa3628b2db527af06a1d#npm:0.435.0"],\
             ["@types/svelte", null],\
             ["svelte", "npm:3.59.1"]\
           ],\
