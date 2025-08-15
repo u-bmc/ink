@@ -1,5 +1,9 @@
 # Ink, the official u-BMC WebUI
 
+> **DEPRECATED**
+>
+> This repository is deprecated. All current development has moved to the main [u-bmc/u-bmc](https://github.com/u-bmc/u-bmc) repository.
+
 ## Requirements
 
 yarn and Node.js. To run the :ci scripts a running docker daemon is required as well.
