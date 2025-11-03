@@ -30,7 +30,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@dagger.io/dagger", "npm:0.6.1"],\
             ["@floating-ui/dom", "npm:1.2.9"],\
-            ["@playwright/test", "npm:1.34.3"],\
+            ["@playwright/test", "npm:1.54.2"],\
             ["@skeletonlabs/skeleton", "npm:1.6.2"],\
             ["@sveltejs/adapter-static", "virtual:20a68dea8c3b7751461ff0627cd486b7abfa2c43d4d4b20cd3ec98be6777228c8b6da62c2f4d4910252ac621aec64addd3a262df8a2faa3628b2db527af06a1d#npm:2.0.2"],\
             ["@sveltejs/kit", "virtual:20a68dea8c3b7751461ff0627cd486b7abfa2c43d4d4b20cd3ec98be6777228c8b6da62c2f4d4910252ac621aec64addd3a262df8a2faa3628b2db527af06a1d#npm:1.20.2"],\
@@ -570,13 +570,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@playwright/test", [\
-        ["npm:1.34.3", {\
-          "packageLocation": "./.yarn/cache/@playwright-test-npm-1.34.3-52e4547b97-b387d85f09.zip/node_modules/@playwright/test/",\
+        ["npm:1.54.2", {\
+          "packageLocation": "./.yarn/cache/@playwright-test-npm-1.54.2-0db0c491a4-deb52981bc.zip/node_modules/@playwright/test/",\
           "packageDependencies": [\
-            ["@playwright/test", "npm:1.34.3"],\
-            ["@types/node", "npm:20.2.5"],\
-            ["fsevents", "patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=df0bf1"],\
-            ["playwright-core", "npm:1.34.3"]\
+            ["@playwright/test", "npm:1.54.2"],\
+            ["playwright", "npm:1.54.2"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -2877,7 +2875,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["ink", "workspace:."],\
             ["@dagger.io/dagger", "npm:0.6.1"],\
             ["@floating-ui/dom", "npm:1.2.9"],\
-            ["@playwright/test", "npm:1.34.3"],\
+            ["@playwright/test", "npm:1.54.2"],\
             ["@skeletonlabs/skeleton", "npm:1.6.2"],\
             ["@sveltejs/adapter-static", "virtual:20a68dea8c3b7751461ff0627cd486b7abfa2c43d4d4b20cd3ec98be6777228c8b6da62c2f4d4910252ac621aec64addd3a262df8a2faa3628b2db527af06a1d#npm:2.0.2"],\
             ["@sveltejs/kit", "virtual:20a68dea8c3b7751461ff0627cd486b7abfa2c43d4d4b20cd3ec98be6777228c8b6da62c2f4d4910252ac621aec64addd3a262df8a2faa3628b2db527af06a1d#npm:1.20.2"],\
@@ -3966,11 +3964,22 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
-      ["playwright-core", [\
-        ["npm:1.34.3", {\
-          "packageLocation": "./.yarn/unplugged/playwright-core-npm-1.34.3-f476cefee2/node_modules/playwright-core/",\
+      ["playwright", [\
+        ["npm:1.54.2", {\
+          "packageLocation": "./.yarn/cache/playwright-npm-1.54.2-4e3f0033a3-0c2ea318d7.zip/node_modules/playwright/",\
           "packageDependencies": [\
-            ["playwright-core", "npm:1.34.3"]\
+            ["playwright", "npm:1.54.2"],\
+            ["fsevents", "patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=df0bf1"],\
+            ["playwright-core", "npm:1.54.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["playwright-core", [\
+        ["npm:1.54.2", {\
+          "packageLocation": "./.yarn/cache/playwright-core-npm-1.54.2-3ec57f4a99-ba233b6ac9.zip/node_modules/playwright-core/",\
+          "packageDependencies": [\
+            ["playwright-core", "npm:1.54.2"]\
           ],\
           "linkType": "HARD"\
         }]\
