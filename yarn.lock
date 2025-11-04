@@ -428,13 +428,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@skeletonlabs/skeleton@npm:1.6.2":
-  version: 1.6.2
-  resolution: "@skeletonlabs/skeleton@npm:1.6.2"
+"@skeletonlabs/skeleton@npm:1.12.0":
+  version: 1.12.0
+  resolution: "@skeletonlabs/skeleton@npm:1.12.0"
   dependencies:
     esm-env: 1.0.0
-    svelte: 3.58.0
-  checksum: dea60663cf0b5c9e81228520f5da239a4941caf765ae23210561eeb600e9090a6bff6701ebe4393acb2ec263ef7c812bf9afa8667597599e67851da7761fb074
+  peerDependencies:
+    svelte: ^3.56.0 || ^4.0.0
+  checksum: 30a034b68721f4e764687cf580b18b30b349c3ea7b9ea5ef8656437a1a6871ed2bc38261c247e4673233638ab0101c1c7d2f27f3c337b250165b114bc7dbed78
   languageName: node
   linkType: hard
 
@@ -2287,7 +2288,7 @@ __metadata:
     "@dagger.io/dagger": 0.6.1
     "@floating-ui/dom": 1.2.9
     "@playwright/test": 1.34.3
-    "@skeletonlabs/skeleton": 1.6.2
+    "@skeletonlabs/skeleton": 1.12.0
     "@sveltejs/adapter-static": 2.0.2
     "@sveltejs/kit": 1.20.2
     "@tailwindcss/forms": 0.5.3
@@ -3947,13 +3948,6 @@ __metadata:
     typescript:
       optional: true
   checksum: 2acd36ccdf5e8d624e753a3dbcd3ca947e87e01509ab3eb3d862551b4278ca684763baf87f0240eab1646c16b0d59fa82227079cce762908f29dd359d1ac69ca
-  languageName: node
-  linkType: hard
-
-"svelte@npm:3.58.0":
-  version: 3.58.0
-  resolution: "svelte@npm:3.58.0"
-  checksum: c05625705961adc971e2bed6b86957c065f34e9d358390ad8dc953f8b4c956bb5ed297e3466f18c8080339cd26b973294489ee4094800fd75a8650fa1f6a9b52
   languageName: node
   linkType: hard
 

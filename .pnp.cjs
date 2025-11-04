@@ -31,7 +31,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@dagger.io/dagger", "npm:0.6.1"],\
             ["@floating-ui/dom", "npm:1.2.9"],\
             ["@playwright/test", "npm:1.34.3"],\
-            ["@skeletonlabs/skeleton", "npm:1.6.2"],\
+            ["@skeletonlabs/skeleton", "virtual:20a68dea8c3b7751461ff0627cd486b7abfa2c43d4d4b20cd3ec98be6777228c8b6da62c2f4d4910252ac621aec64addd3a262df8a2faa3628b2db527af06a1d#npm:1.12.0"],\
             ["@sveltejs/adapter-static", "virtual:20a68dea8c3b7751461ff0627cd486b7abfa2c43d4d4b20cd3ec98be6777228c8b6da62c2f4d4910252ac621aec64addd3a262df8a2faa3628b2db527af06a1d#npm:2.0.2"],\
             ["@sveltejs/kit", "virtual:20a68dea8c3b7751461ff0627cd486b7abfa2c43d4d4b20cd3ec98be6777228c8b6da62c2f4d4910252ac621aec64addd3a262df8a2faa3628b2db527af06a1d#npm:1.20.2"],\
             ["@tailwindcss/forms", "virtual:20a68dea8c3b7751461ff0627cd486b7abfa2c43d4d4b20cd3ec98be6777228c8b6da62c2f4d4910252ac621aec64addd3a262df8a2faa3628b2db527af06a1d#npm:0.5.3"],\
@@ -591,12 +591,24 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@skeletonlabs/skeleton", [\
-        ["npm:1.6.2", {\
-          "packageLocation": "./.yarn/cache/@skeletonlabs-skeleton-npm-1.6.2-27f7f3d025-dea60663cf.zip/node_modules/@skeletonlabs/skeleton/",\
+        ["npm:1.12.0", {\
+          "packageLocation": "./.yarn/cache/@skeletonlabs-skeleton-npm-1.12.0-c524568196-30a034b687.zip/node_modules/@skeletonlabs/skeleton/",\
           "packageDependencies": [\
-            ["@skeletonlabs/skeleton", "npm:1.6.2"],\
+            ["@skeletonlabs/skeleton", "npm:1.12.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:20a68dea8c3b7751461ff0627cd486b7abfa2c43d4d4b20cd3ec98be6777228c8b6da62c2f4d4910252ac621aec64addd3a262df8a2faa3628b2db527af06a1d#npm:1.12.0", {\
+          "packageLocation": "./.yarn/__virtual__/@skeletonlabs-skeleton-virtual-a96dbd374a/0/cache/@skeletonlabs-skeleton-npm-1.12.0-c524568196-30a034b687.zip/node_modules/@skeletonlabs/skeleton/",\
+          "packageDependencies": [\
+            ["@skeletonlabs/skeleton", "virtual:20a68dea8c3b7751461ff0627cd486b7abfa2c43d4d4b20cd3ec98be6777228c8b6da62c2f4d4910252ac621aec64addd3a262df8a2faa3628b2db527af06a1d#npm:1.12.0"],\
+            ["@types/svelte", null],\
             ["esm-env", "npm:1.0.0"],\
-            ["svelte", "npm:3.58.0"]\
+            ["svelte", "npm:3.59.1"]\
+          ],\
+          "packagePeers": [\
+            "@types/svelte",\
+            "svelte"\
           ],\
           "linkType": "HARD"\
         }]\
@@ -2878,7 +2890,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@dagger.io/dagger", "npm:0.6.1"],\
             ["@floating-ui/dom", "npm:1.2.9"],\
             ["@playwright/test", "npm:1.34.3"],\
-            ["@skeletonlabs/skeleton", "npm:1.6.2"],\
+            ["@skeletonlabs/skeleton", "virtual:20a68dea8c3b7751461ff0627cd486b7abfa2c43d4d4b20cd3ec98be6777228c8b6da62c2f4d4910252ac621aec64addd3a262df8a2faa3628b2db527af06a1d#npm:1.12.0"],\
             ["@sveltejs/adapter-static", "virtual:20a68dea8c3b7751461ff0627cd486b7abfa2c43d4d4b20cd3ec98be6777228c8b6da62c2f4d4910252ac621aec64addd3a262df8a2faa3628b2db527af06a1d#npm:2.0.2"],\
             ["@sveltejs/kit", "virtual:20a68dea8c3b7751461ff0627cd486b7abfa2c43d4d4b20cd3ec98be6777228c8b6da62c2f4d4910252ac621aec64addd3a262df8a2faa3628b2db527af06a1d#npm:1.20.2"],\
             ["@tailwindcss/forms", "virtual:20a68dea8c3b7751461ff0627cd486b7abfa2c43d4d4b20cd3ec98be6777228c8b6da62c2f4d4910252ac621aec64addd3a262df8a2faa3628b2db527af06a1d#npm:0.5.3"],\
@@ -4740,13 +4752,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["svelte", [\
-        ["npm:3.58.0", {\
-          "packageLocation": "./.yarn/cache/svelte-npm-3.58.0-d91e08182c-c056257059.zip/node_modules/svelte/",\
-          "packageDependencies": [\
-            ["svelte", "npm:3.58.0"]\
-          ],\
-          "linkType": "HARD"\
-        }],\
         ["npm:3.59.1", {\
           "packageLocation": "./.yarn/cache/svelte-npm-3.59.1-284b2b0695-bd4344f01a.zip/node_modules/svelte/",\
           "packageDependencies": [\
