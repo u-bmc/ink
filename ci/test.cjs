@@ -13,14 +13,14 @@
       const playwright = client
         .pipeline("test")
         .container()
-        .from("mcr.microsoft.com/playwright:v1.34.3-focal");
+        .from("mcr.microsoft.com/playwright:v1.37.1-focal");
 
       // prepare runner
       const runner = playwright
         .withMountedDirectory("/src", source)
         .withWorkdir("/src")
         .withExec(["yarn", "install"])
-        .withExec(["yarn", "test"]);
+        .withExec(["yarn", "test:ci"]);
 
       // start runner
       await runner.directory("coverage/").export("./coverage");
